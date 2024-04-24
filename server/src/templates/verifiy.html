@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Verify Your Email Address</title>
+		<style>
+			body {
+				font-family: sans-serif;
+				margin: 0;
+				padding: 0;
+				background-color: #f2f2f2;
+			}
+
+			.container {
+				width: 500px;
+				margin: 0 auto;
+				padding: 20px;
+				background-color: #fff;
+			}
+
+			h2 {
+				font-size: 24px;
+				font-weight: bold;
+				margin-bottom: 20px;
+			}
+
+			p {
+				font-size: 16px;
+				line-height: 1.5;
+			}
+
+			a {
+				color: #007bff;
+				text-decoration: none;
+			}
+
+			.footer {
+				text-align: center;
+				margin-top: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h2>Verify Your Email Address</h2>
+
+			<p>
+				Thank you for signing up, {{firstName}}! Please verify your email
+				address to complete your registration. Use the code below to verify your
+				account:
+			</p>
+
+			<h1>{{code}}</h1>
+
+			<p class="footer">
+				Sincerely,<br />
+				Ademix Team
+			</p>
+		</div>
+	</body>
+</html>
