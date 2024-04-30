@@ -1,7 +1,7 @@
 import React from "react";
 import { Typography } from "@mui/material";
 
-import { logo, chedbg, teamLogo } from "../assets/index";
+import { logo, PCARegister, teamLogo } from "../assets/index";
 import AppButtonContained from "../components/utils/AppButtonContained";
 import AppButtonOutlined from "../components/utils/AppButtonOutlined";
 import useRouting from "../components/routes";
@@ -13,7 +13,7 @@ function LandingPage() {
 		<div
 			className="flex justify-center items-center h-screen text-white font-inter relative"
 			style={{
-				backgroundImage: `url(${chedbg})`,
+				backgroundImage: `url(${PCARegister})`,
 				backgroundSize: "cover",
 				backgroundPosition: "center",
 			}}>
@@ -22,7 +22,7 @@ function LandingPage() {
 				<div>
 					<img src={logo} width={300} alt={"Unable to load logo."} />
 					<Typography className="font-medium text-black">
-						Developed for CHED-TC CpE
+						Developed for PCA Research Center
 					</Typography>
 				</div>
 				<div className="flex flex-col gap-2">

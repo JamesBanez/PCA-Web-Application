@@ -56,7 +56,7 @@ function HomePage() {
 	return (
 		<div className="p-5">
 			<Typography className="font-bold" variant="h4">
-				List of Institutions
+				Dashboard
 			</Typography>
 			<div className="flex flex-row justify-between mt-2 items-center md:shrink-0">
 				<TextField

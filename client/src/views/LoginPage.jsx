@@ -3,7 +3,7 @@ import { TextField, Link, Typography } from "@mui/material";
 
 import AppButtonContained from "../components/utils/AppButtonContained";
 import useRouting from "../components/routes";
-import { chedbg, teamLogo } from "../assets";
+import { PCARegister, teamLogo } from "../assets";
 import { SERVER_URL } from "../../Globals";
 
 function LoginPage() {
@@ -63,7 +63,7 @@ function LoginPage() {
 		<div className="flex flex-col justify-center mt-8 items-center font-inter">
 			<div className="flex flex-row shadow-lg w-5/6 rounded-lg bg-accent">
 				<img
-					src={chedbg}
+					src={PCARegister}
 					width={700}
 					alt="Unable to load logo."
 					className="opacity-60 rounded-l-lg"
@@ -93,15 +93,7 @@ function LoginPage() {
 							/>
 						))}
 						<AppButtonContained label="Login" onClick={() => handleSubmit()} />
-						<Typography className="mt-5">
-							Don't have an account?{" "}
-							<Link
-								href="/register"
-								underline="hover"
-								className="text-accent font-bold">
-								Register
-							</Link>
-						</Typography>
+				
 					</div>
 				</div>
 			</div>
