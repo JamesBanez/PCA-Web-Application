@@ -45,8 +45,8 @@ function InstitutionTable(props, ref) {
 
 	// Defines the column of the table
 	const columns = [
-		{ field: "institutionName", headerName: "Name of Institution", flex: 3 },
-		{ field: "completeAddress", headerName: "Address", flex: 2 },
+		{ field: "institutionName", headerName: "Severity", flex: 3 },
+		{ field: "completeAddress", headerName: "Coordinates", flex: 2 },
 		{ field: "city", headerName: "City", flex: 2 },
 		{ field: "region", headerName: "Region", flex: 2 },
 		{

@@ -21,7 +21,7 @@ function Header({ withLogout }) {
 				<div className="flex flex-col justify-center items-center">
 					<img src={logo} width={220} alt={"Unable to load logo."} />
 					<Typography className="font-medium">
-						Developed for CHED-TC CpE
+						Developed for PCA Research Center
 					</Typography>
 				</div>
 			</a>

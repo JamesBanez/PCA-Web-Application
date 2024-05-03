@@ -17,7 +17,7 @@ function LandingPage() {
 				backgroundSize: "cover",
 				backgroundPosition: "center",
 			}}>
-			<div className="absolute inset-0 bg-accent opacity-60"></div>
+			<div className="absolute inset-0 bg-accent opacity-30"></div>
 			<div className="flex flex-col gap-10 text-center z-10 relative bg-primary p-10 rounded-lg">
 				<div>
 					<img src={logo} width={300} alt={"Unable to load logo."} />

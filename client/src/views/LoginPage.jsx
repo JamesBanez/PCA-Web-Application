@@ -66,7 +66,7 @@ function LoginPage() {
 					src={PCARegister}
 					width={700}
 					alt="Unable to load logo."
-					className="opacity-60 rounded-l-lg"
+					className="opacity-100 rounded-l-lg"
 					// style={{ backgroundColor: "rgba(59, 130, 246, 0.6)" }}
 				/>
 				<div className="flex flex-1 flex-col px-10 justify-center rounded-lg bg-white">
@@ -97,9 +97,9 @@ function LoginPage() {
 					</div>
 				</div>
 			</div>
-			<div className="flex flex-row justify-center items-center font-medium mt-5 text-black pt-6">
+			<div className="flex flex-row justify-center items-center font-medium mt-5 text-black pt-10">
 				<Typography variant="caption">Developed by: </Typography>
-				<img src={teamLogo} width={80} alt="Ademix" />
+				<img src={teamLogo} width={100} alt="Ademix" />
 			</div>
 		</div>
 	);
